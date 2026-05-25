@@ -1,4 +1,4 @@
-CommutatorX : A Quantum Operator Commutation Simulator
+# CommutatorX : A Quantum Operator Commutation Simulator
 
 This Python script is a small symbolic quantum mechanics engine built using the SymPy library.
 
@@ -10,7 +10,7 @@ where:
 	and the commutator determines whether two physical observables are compatible.
 _________________________________________________________
 
-Decoherence Dynamics
+# Decoherence Dynamics
 
 The simulation results provide a stark mathematical confirmation that across a distance of 100,000 light years (the diameter of our galaxy), the two particles i.e. photons and electrons behave in fundamentally different ways. 
 

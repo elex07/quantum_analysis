@@ -1,12 +1,12 @@
-CommutatorX : A Quantum Operator Commutation Simulator
+# CommutatorX : A Quantum Operator Commutation Simulator
 
-This Python script is a small symbolic quantum mechanics engine built using the SymPy library.
+## This Python script is a small symbolic quantum mechanics engine built using the SymPy library.
 
 The program allows users to:
-	Define quantum mechanical operators,
-	Apply them to a wavefunction,
-	Compute commutators,
-	and check whether two operators commute or not.
+	- Define quantum mechanical operators,
+	- Apply them to a wavefunction,
+	- Compute commutators,
+	- and check whether two operators commute or not.
 
 The script demonstrates one of the most important ideas in quantum mechanics:
 	[A,B]=AB−BA
@@ -16,7 +16,7 @@ where:
 	and the commutator determines whether two physical observables are compatible.
 _________________________________________________________
 
-What the Script Does
+## What the Script Does
 
 The program:
 	1) Defines a wavefunction ψ(x)
@@ -29,11 +29,11 @@ The program:
 	5) Determines whether the operators commute.
 _________________________________________________________
 
-Supported Operators
+## Supported Operators
 
 The script currently supports:
 
-Operator						Physical Meaning
+### Operator					Physical Meaning
 	x							Position
 	p							Momentum
 	KE							Kinetic Energy
@@ -45,7 +45,7 @@ Operator						Physical Meaning
 	omega						Angular Velocity
 _________________________________________________________
 
-Physical Interpretation of Results
+## Physical Interpretation of Results
 If operators COMMUTE
 	Example: [x,F]=0
 
@@ -56,31 +56,31 @@ If operators DO NOT commute
 	Example: [x,p] != 0
 
 This means:
-	operator order matters,
-	quantum uncertainty relationships may exist,
-	the physical quantities cannot generally be measured simultaneously with arbitrary precision.
+	- Operator order matters,
+	- Quantum uncertainty relationships may exist,
+	- The physical quantities cannot generally be measured simultaneously with arbitrary precision.
 
 Momentum does not commute with position because:
-	momentum contains derivatives,
-	while position multiplies the wavefunction.
+	- Momentum contains derivatives,
+	- While position multiplies the wavefunction.
 _________________________________________________________
 
-What the Program Teaches
+## What the Program Teaches
 
 	The script helps visualize and understand:
-		operator algebra,
-		commutation relations,
-		derivative vs multiplication operators,
-		quantum observables,
-		symbolic quantum mechanics,
-		and the mathematical structure behind quantum theory.
+		- operator algebra,
+		- commutation relations,
+		- derivative vs multiplication operators,
+		- quantum observables,
+		- symbolic quantum mechanics,
+		- and the mathematical structure behind quantum theory.
 _________________________________________________________
 
-Important Notes
+## Important Notes
 
-	The script tests commutation on a chosen wavefunction.
-	True operator commutation in physics means the commutator must vanish for all valid wavefunctions.
-	Time is not implemented as a standard operator because in conventional quantum mechanics time is treated as a parameter, not an observable operator.
+	- The script tests commutation on a chosen wavefunction.
+	- True operator commutation in physics means the commutator must vanish for all valid wavefunctions.
+	- Time is not implemented as a standard operator because in conventional quantum mechanics time is treated as a parameter, not an observable operator.
 _________________________________________________________
 
 Example Discoveries from the Script
@@ -92,17 +92,17 @@ Example Discoveries from the Script
 	KE and constant PE				Commute
 _________________________________________________________
 
-Future Extensions
+## Future Extensions
 
 	Possible future upgrades:
-		user-defined potentials,
-		graphical visualization,
-		matrix mechanics mode,
-		2D and 3D operators,
-		angular systems,
-		wavefunction evolution,
-		uncertainty principle simulator,
-		and symbolic proof mode.
+		- user-defined potentials,
+		- graphical visualization,
+		- matrix mechanics mode,
+		- 2D and 3D operators,
+		- angular systems,
+		- wavefunction evolution,
+		- uncertainty principle simulator,
+		- and symbolic proof mode.
 _________________________________________________________
 
 
