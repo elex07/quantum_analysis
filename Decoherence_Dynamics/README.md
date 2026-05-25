@@ -21,8 +21,9 @@ Metric							Photon						Electron
 Initial Coherence				1.0 (100%)					1.0 (100%)
 Interaction Rate				Extremely Low (10^-11)		Extremely High (10^6+)
 State at 100k LY				Intact						Decohered
+______________________________________________________
 
-
+> Pavitra Kanetkar
 
 
 
